@@ -1,0 +1,56 @@
+$rojofuerte:rgb(211, 11, 11);
+
+
+body {
+    .encabezado {
+
+        background-color:black;
+    
+    }
+
+    section {
+        .titulo {
+            color:$rojofuerte
+        }
+    }
+    .tiendaoficial {
+        background-color:$rojofuerte;
+    }
+    .display-2 { color: white;
+    }
+    .videosyoutube {
+        background-color:black;
+    }
+    .tituloglorias {
+        color: white;
+    }
+    .formulario {
+        background-image: url("../imagenes/tribuna.jpg");
+
+        color:white;
+        .formunob {
+            background-color: rgba(120, 119, 123, 0.3) ;
+
+
+        }
+
+    }
+    .fixture {
+        color:black;
+        background-image: url("../imagenes/jugadores.jpg");
+
+    }
+
+    footer {
+        background:$rojofuerte;
+    }
+    .glorias {
+        background: url(../imagenes/fondonob.jpg);
+    
+    }
+    
+
+
+}
+
+

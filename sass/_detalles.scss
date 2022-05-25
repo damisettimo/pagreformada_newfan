@@ -1,0 +1,220 @@
+.titulo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+}
+
+.hinchada { 
+    
+    border-radius: 20px;
+    border: 4px;
+    max-width: 100%;
+ }
+ .imgnob2 {
+
+    border-radius: 20px;
+    border: 4px;
+    max-width: 50%;
+
+  }
+
+  .tiendoficial {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  .tienda {
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .card { 
+    align-items: center;
+    align-content: center;
+  } 
+  .card-img-top {
+    align-items: center;
+    width: 200px;
+  }
+  .videosyoutube {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 4px;
+}
+.videosdestacados {
+    font-size: 30px;
+
+}
+.iframe {
+    
+    border: 4px;
+    max-width: 100%;
+  }
+  .tituloglorias {
+
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+
+
+  }  
+
+  .slider-frame {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    }
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+
+ }    
+
+ .slider-frame li {
+    width: 100%;
+    list-style: none;
+    }
+    
+.slider-frame img {
+    width: 100%;
+    }
+    
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+        
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+        
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+        
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+    }    
+    
+.formulario {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.formunob {
+    max-width: 25em;
+    font-weight: bold;
+    box-shadow: inset 1px  1px 22px 4px;
+    }    
+
+.fixture{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+footer {
+
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    
+}
+.leyendapie { 
+    text-align: center;
+
+}
+
+.linkspie { 
+    text-align: center;
+ 
+}        
+
+.listalinks {
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+}
+.canob {
+    align-items:center;
+    width: 60px; 
+
+}
+
+.lpf {
+    align-items:center;
+    width: 60px; 
+    }  
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+    .animacionunite {
+      text-align:center;
+      color:black;
+      font-family:'Roboto';
+      font-weight:300;
+      font-size:32px;
+      
+      overflow:hidden;
+    
+    }
+   
+    .divan2 {
+      color: white;
+    }
+   
+   
+    
+    .divan {
+      display:inline-block;
+      overflow:hidden;
+      white-space:nowrap;
+      color: white;
+    }
+    
+    .divan:first-of-type {    /* For increasing performance 
+                           ID/Class should've been used. 
+                           For a small demo 
+                           it's okaish for now */
+      animation: showup 7s infinite;
+    }
+    
+    .divan:last-of-type {
+      width:0px;
+      animation: reveal 7s infinite;
+    }
+    
+    .divan:last-of-type span {
+      margin-left:-355px;
+      animation: slidein 7s infinite;
+    }
+    
+    @keyframes showup {
+        0% {opacity:0;}
+        20% {opacity:1;}
+        80% {opacity:1;}
+        100% {opacity:0;}
+    }
+    
+    @keyframes slidein {
+        0% { margin-left:-800px; }
+        20% { margin-left:-800px; }
+        35% { margin-left:0px; }
+        100% { margin-left:0px; }
+    }
+    
+    @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        20% {opacity:1;width:0px;}
+        30% {width:355px;}
+        80% {opacity:1;}
+        100% {opacity:0;width:355px;}
+    }
+        
